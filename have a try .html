@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>小万的第一尝试</title>
+<base href="https://www.zhihu.com/signin?next=%2F"target="_blank" >
+<style type="text/css">
+   body {background-color:rgb(255, 255, 255)}
+   p {color:rgb(0, 0, 255)}
+   a{color:rgb(32, 26, 19)}
+ div{width:300px;height:40px;margin:10px auto;color:black;}
+ .box1{background: #71a879;text-align: center;}
+ .box2{background: #6a8bbc;line-height: 1000px;}
+ .box3{background: #dea46b;text-align: center;line-height: 1000px;}
+     </style>
+   <meta name="kewords" content="ZHIHU，知乎，万金鹏">
+   <meta name="discription" content="初学者，入门">
+   <meta name="author" content="Jinpeng Wan">
+   <meta http-equiv="refresh" content="60">
+</head>
+<body>
+   <div class="index-box" style="z-index:9999;position:relative">
+      <div class="index-header">
+         <h1 class="logo"></h1>
+         <h2 class="title";center>知乎</h2>
+      </div>
+      <div class="index-body">
+         <div class="nav-sliders">
+            <a id="loginButton" class="login active">登录</a>
+            <a class="registered">注册</a>
+            <span class="on"></span>
+         </div>
+         <div class="change">
+         
+            <div class="login-box">
+            <form id="loginForm" action="${pageContext.request.contextPath}/j_spring_security_check" method="post">
+               <div class="wrap">
+                  <div class="phone">
+                     <input type="email" id="username" name='j_username' value="" placeholder="用户名">
+                     <label class="error loginName">请输入登录名（email地址）</label>
+                  </div>
+                  <div class="password">
+                     <input type="password" id="password" name='j_password' placeholder="密码">
+                     <label class="error loginPass">密码</label>
+                  </div>
+               </div>
+               <div class="button" id="login">登录</div>
+            <a href="https://www.zhihu.com/" target="_blank">
+               <form action=""color :yellow >
+                  <input type="button" value="登录" style="background-color:aqua">
+               </form>			
+            </a>	
+               <div class="remember">
+                  <label><input id="rememberMe" name="_spring_security_remember_me" type="checkbox">记住我:</label>
+                  <a>无法登陆?</a>
+               </div>
+               </form>
+               <div class="other">
+                  <span>社交账号登录</span>
+                  <div class="other-login">
+                     <a  href ="javascript:volid(0);">QQ</a>
+                     <a  href ="javascript:volid(0);">微信</a>
+                     <a  href ="javascript:volid(0);">微博</a>
+                  </div>
+               </div>
+            </div>
+            
+</body>
+</html>
